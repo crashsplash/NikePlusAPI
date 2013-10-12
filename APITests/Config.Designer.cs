@@ -8,9 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NikePlusAPI {
+namespace APITests {
     using System;
-    using System.Reflection;
     
     
     /// <summary>
@@ -23,14 +22,14 @@ namespace NikePlusAPI {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class APIUris {
+    internal class Config {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal APIUris() {
+        internal Config() {
         }
         
         /// <summary>
@@ -40,7 +39,7 @@ namespace NikePlusAPI {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NikePlusAPI.APIUris", typeof(APIUris).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("APITests.Config", typeof(Config).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -62,11 +61,11 @@ namespace NikePlusAPI {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://api.nike.com/me/sport?access_token={0}.
+        ///   Looks up a localized string similar to 37c01c00a81430ede40bc8bc908ab544.
         /// </summary>
-        internal static string AggregatedSportData {
+        internal static string SampleToken {
             get {
-                return ResourceManager.GetString("AggregatedSportData", resourceCulture);
+                return ResourceManager.GetString("SampleToken", resourceCulture);
             }
         }
     }

@@ -117,8 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AggregatedSportData" xml:space="preserve">
-    <value>https://api.nike.com/me/sport?access_token={0}</value>
-    <comment>Aggregated Sport Data</comment>
+  <data name="SampleToken" xml:space="preserve">
+    <value>37c01c00a81430ede40bc8bc908ab544</value>
+    <comment>A sample authorization token.</comment>
   </data>
 </root>

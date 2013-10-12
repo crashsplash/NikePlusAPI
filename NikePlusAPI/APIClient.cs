@@ -30,6 +30,7 @@ namespace NikePlusAPI
                 if (!string.IsNullOrEmpty(token))
                 {                    
                     aClient.DefaultRequestHeaders.Add("access_token", token);
+                    aClient.DefaultRequestHeaders.Add("accept", "application/json");
                 }
                 return aClient;
             }
