@@ -1,2 +1,11 @@
 ﻿You can access the Nike Plus API Developer Portal here for further documentation:
 https://developer.nike.com/
+
+Right now the wrapper implements only APIs usefull for Nike Fuelband. Here is a list of other APIs to be implemented in a future time.
+
+Activities By Experience Type
+https://developer.nike.com/activities/activities_by_experience_type
+Activity Detail
+https://developer.nike.com/activities/get_activity_detail_for_activity_id
+GPS Data
+https://developer.nike.com/activities/get_gps_data_for_activity_id
