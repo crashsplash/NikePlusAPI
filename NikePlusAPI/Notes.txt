@@ -1,0 +1,2 @@
+﻿You can access the Nike Plus API Developer Portal here for further documentation:
+https://developer.nike.com/
