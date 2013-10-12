@@ -72,6 +72,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Config.resx</DependentUpon>
     </Compile>
+    <Compile Include="ListActivitiesFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

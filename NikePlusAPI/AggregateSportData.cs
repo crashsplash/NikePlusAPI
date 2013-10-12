@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace NikePlusAPI
 {
+    //Documentation : https://developer.nike.com/activities/get_aggregate_sport_data
     public class AggregateSportData
     {
         public string Token { get; set; }
@@ -35,13 +36,17 @@ namespace NikePlusAPI
         {
             public class Record
             {
+                //Type of Record ('LIFETIMEFUEL', for example)
                 public string recordType { get; set; }
+                //Record value as a string
                 public string recordValue { get; set; }
             }
 
             public class Summary
             {
+                //FUELBAND, RUNNING
                 public string experienceType { get; set; }
+                //Summaries of activities for each experienceType
                 public List<Record> records { get; set; }
             }
 

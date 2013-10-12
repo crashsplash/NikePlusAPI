@@ -69,5 +69,14 @@ namespace NikePlusAPI {
                 return ResourceManager.GetString("AggregatedSportData", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://api.nike.com/me/sport/activities?access_token={0}.
+        /// </summary>
+        internal static string ListActivities {
+            get {
+                return ResourceManager.GetString("ListActivities", resourceCulture);
+            }
+        }
     }
 }

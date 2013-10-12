@@ -121,4 +121,8 @@
     <value>https://api.nike.com/me/sport?access_token={0}</value>
     <comment>Aggregated Sport Data</comment>
   </data>
+  <data name="ListActivities" xml:space="preserve">
+    <value>https://api.nike.com/me/sport/activities?access_token={0}</value>
+    <comment>List Activities</comment>
+  </data>
 </root>
